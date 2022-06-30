@@ -13,7 +13,7 @@ protocol NetworkManagerDelegate {
 
 struct NetworkManager {
     let requestURL = "https://data.mongodb-api.com/app/data-irsfi/endpoint/data/v1/action/findOne"
-    let APIkey = Secrets().mongoKey
+    let APIKey = Secrets().mongoKey
     
     var delegate: NetworkManagerDelegate?
     
@@ -30,7 +30,7 @@ struct NetworkManager {
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        request.setValue(APIkey, forHTTPHeaderField: "api-key")
+        request.setValue(APIKey, forHTTPHeaderField: "api-key")
         request.setValue("*", forHTTPHeaderField: "Access-Control-Request-Headers")
         request.httpBody = payload
         print("URL Encoding Success!")

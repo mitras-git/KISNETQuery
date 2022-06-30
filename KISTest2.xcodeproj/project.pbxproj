@@ -16,7 +16,7 @@
 		3A01B608286DFAC0008B9BB5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A01B607286DFAC0008B9BB5 /* NetworkManager.swift */; };
 		3A01B60D286E0468008B9BB5 /* JSONKISStudentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A01B60C286E0468008B9BB5 /* JSONKISStudentData.swift */; };
 		3A01B60F286E0827008B9BB5 /* KISStudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A01B60E286E0827008B9BB5 /* KISStudentModel.swift */; };
-		3AD03150286E4CEA0011588D /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD0314F286E4CEA0011588D /* Secrets.swift */; };
+		3AD03152286E4F910011588D /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD03151286E4F910011588D /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		3A01B607286DFAC0008B9BB5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		3A01B60C286E0468008B9BB5 /* JSONKISStudentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONKISStudentData.swift; sourceTree = "<group>"; };
 		3A01B60E286E0827008B9BB5 /* KISStudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KISStudentModel.swift; sourceTree = "<group>"; };
-		3AD0314F286E4CEA0011588D /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		3AD03151286E4F910011588D /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 			children = (
 				3A01B5F3286DFAA5008B9BB5 /* AppDelegate.swift */,
 				3A01B5F5286DFAA5008B9BB5 /* SceneDelegate.swift */,
-				3AD0314F286E4CEA0011588D /* Secrets.swift */,
+				3AD03151286E4F910011588D /* Secrets.swift */,
 				3A01B609286E0367008B9BB5 /* Model */,
 				3A01B60B286E037C008B9BB5 /* View */,
 				3A01B60A286E0373008B9BB5 /* Controller */,
@@ -176,7 +176,7 @@
 			files = (
 				3A01B608286DFAC0008B9BB5 /* NetworkManager.swift in Sources */,
 				3A01B60F286E0827008B9BB5 /* KISStudentModel.swift in Sources */,
-				3AD03150286E4CEA0011588D /* Secrets.swift in Sources */,
+				3AD03152286E4F910011588D /* Secrets.swift in Sources */,
 				3A01B5F8286DFAA5008B9BB5 /* ViewController.swift in Sources */,
 				3A01B5F4286DFAA5008B9BB5 /* AppDelegate.swift in Sources */,
 				3A01B5F6286DFAA5008B9BB5 /* SceneDelegate.swift in Sources */,
